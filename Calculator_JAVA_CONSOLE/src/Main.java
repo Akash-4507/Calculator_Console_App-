@@ -1,0 +1,15 @@
+import controller.CalculatorController;
+import service.CalculatorService;
+import service.CalculatorServiceImpl;
+import view.CalculatorView;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        CalculatorService service = new CalculatorServiceImpl();
+        CalculatorView view = new CalculatorView();
+        CalculatorController controller = new CalculatorController(service,view);
+        controller.run();
+    }
+}
