@@ -50,6 +50,4 @@ This task helped me understand:
 - Basic I/O and control flow in Java
 
 
----
 
-### 📂 Folder Structure:
